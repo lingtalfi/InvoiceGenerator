@@ -47,6 +47,10 @@ Summary
 History Log
 =============
 
+- 1.0.1 -- 2021-05-07
+
+    - fix basicStore/classic template not displaying client company in bold
+  
 - 1.0.0 -- 2021-05-07
 
     - initial commit

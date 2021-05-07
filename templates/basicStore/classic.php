@@ -230,6 +230,11 @@ if (true === $lastPageIsPageC) {
             font-size: 18px;
         }
 
+        .bold-b2 {
+            font-weight: bold;
+        }
+
+
         .medium-title {
             font-weight: bold;
             font-size: 24px;
@@ -470,7 +475,7 @@ if (true === $lastPageIsPageC) {
 
 
                                 <?php if ($x < $maxNumberOfItemLinesForPageA): ?>
-                                    <?php for ($i = 1; $i <= $maxNumberOfItemLinesForPageA-$x; $i++): ?>
+                                    <?php for ($i = 1; $i <= $maxNumberOfItemLinesForPageA - $x; $i++): ?>
 
                                         <tr class="no-border">
                                             <td class="no-border">&nbsp;</td>
